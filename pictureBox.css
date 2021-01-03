@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+.pictureBox-Overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.pictureBox-view {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  background-color: beige;
+  z-index: 2;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.pictureBox-view img {
+  max-height: 80vh;
+  max-width: 80vw;
+}
+
+.box-prev {
+  position: fixed;
+  top: 50%;
+  left: 5vh;
+  transform: translateY(-50%);
+  color: beige;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.box-next {
+  position: fixed;
+  top: 50%;
+  right: 5vh;
+  transform: translateY(-50%);
+  color: beige;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.box-close {
+  position: fixed;
+  top: 5vh;
+  right: 5vh;
+  color: beige;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
