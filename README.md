@@ -14,7 +14,7 @@ Add class `picture-box` to the img tag that you want to include in the crousal
 <img class="picture-box" src="image1.jpg" />
 ```
 
-Add a js file in your project add add
+Add a js file in your project and add below code
 
 ```js
 import { pictureBox } from "picture-box/pictureBox";
