@@ -17,20 +17,6 @@ function crousalBox(){
         
     }
          let openPictureBox=(img_el)=>{ 
-           // hidePictureBox();
-            // currentImage=img_el;
-            // displayPictureBox=true;
-            // let overLay=document.createElement('div');
-            // overLay.classList.add('pictureBox-Overlay');
-            // let imageContainer=document.createElement('div');
-            // imageContainer.classList.add('pictureBox-view');
-            // let img=document.createElement('img');
-            // img.classList.add('pictureBox-img');
-            // img.src=img_el.src;
-            // imageContainer.appendChild(img);
-            // document.querySelector('body').appendChild(overLay);
-            // document.querySelector('body').appendChild(imageContainer);
-            // applyControl(img_el);
 
             if(displayPictureBox){
                 currentImage=img_el;
@@ -136,5 +122,4 @@ let hidePictureBox=()=>{
     }
 }
 
-//let Crousal= new pictureBox();
-module.export.pictureBox=new CrousalBox();
+module.exports.pictureBox=new crousalBox();

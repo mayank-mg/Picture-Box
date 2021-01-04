@@ -1,0 +1,32 @@
+{
+  "name": "picture-box",
+  "version": "1.0.2",
+  "description": "Add image to crousal with class name ",
+  "main": "pictureBox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "pictureBox.js",
+    "pictureBox.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayank-mg/picture-box.git"
+  },
+  "keywords": [
+    "Crousal",
+    "SlideShow",
+    "Dynamic_Crousal",
+    "frequently_Add_Image_to_Crousal"
+  ],
+  "author": "Mayank Garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayank-mg/picture-box/issues"
+  },
+  "homepage": "https://github.com/mayank-mg/picture-box#readme",
+  "dependencies": {
+    "use": "^3.1.1"
+  }
+}

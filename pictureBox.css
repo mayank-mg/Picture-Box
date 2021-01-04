@@ -23,6 +23,8 @@
 }
 
 .pictureBox-view img {
+  height: 80vh;
+  width: 80vw;
   max-height: 80vh;
   max-width: 80vw;
 }
