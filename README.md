@@ -4,7 +4,7 @@ A vanila js library to show Crousal on image click
 
 ## Installations
 
-`npm install pictureBox`
+`npm i picture-box`
 
 ## Getting started
 
